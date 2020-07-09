@@ -72,7 +72,7 @@ window.view = {
 	generateRandomNumbers: function() {
 		var inputValue = this.getArraySize()
 		for ( i = 0 ; i < inputValue ; i++ ) {
-			var random = Math.floor(Math.random()*15)
+		
 			this.numbers.push(String(random))
 		}
 	},
